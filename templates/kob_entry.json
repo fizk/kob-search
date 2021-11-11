@@ -353,6 +353,14 @@
                             "analyzer": "ngram_is_analyzer",
                             "search_analyzer": "is_searcher",
                             "type": "text"
+                        },
+                        "affected": {
+                            "format": "yyyy-MM-dd HH:mm:ss",
+                            "type": "date"
+                        },
+                        "created": {
+                            "format": "yyyy-MM-dd HH:mm:ss",
+                            "type": "date"
                         }
                     }
                 },
@@ -383,7 +391,7 @@
                 },
                 "poster": {
                     "enabled": false,
-                    "type": "object"
+                    "type": "nested"
                 },
                 "title": {
                     "analyzer": "ngram_is_analyzer",
